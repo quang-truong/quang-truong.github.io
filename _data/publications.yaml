@@ -11,6 +11,7 @@ papers:
     venue: "2021 IEEE International Intelligent Transportation Systems Conference (ITSC). IEEE. 2021."
     paper_url: "https://ieeexplore.ieee.org/document/9564945"
     poster: "/assets/publications/2021_not_all_data_matters/poster.pdf"
+    slides: "/assets/publications/2021_not_all_data_matters/slides.pdf"
     selected: y
   
   - title: "Image-based Vehicle Re-identification Model with Adaptive Attention Modules and Metadata Re-ranking"
