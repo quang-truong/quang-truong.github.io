@@ -214,10 +214,10 @@ title: Home
           <span class="flag">{{ exp.place }}</span>
           <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
         </div>
-        {% if exp.advisor == "" %}
-          <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
+        {% if exp.advisor %}
+          <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }} <br/> Advisor: <a href={{exp.advisor_url}} target="_blank">{{ exp.advisor }}</a> </div>
         {% else %}
-        <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }} <br/> Advisor: <a href={{exp.advisor_url}} target="_blank">{{ exp.advisor }}</a> </div>
+          <div class="desc"><b>{{ exp.title }}</b> <br/> {{ exp.subtitle }}</div>
         {% endif %}
       </div>
     </li>
