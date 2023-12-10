@@ -52,6 +52,13 @@ h4 {
 .image {
   text-align: center; }
 
+.anchor{
+  display: block;
+  height: 6.5rem; /*same height as header*/
+  margin-top: -6.5rem; /*same height as header*/
+  visibility: hidden;
+}
+
 /*  ================ Project styling  ================ */
 .project-container {
   margin-bottom: 30px;
