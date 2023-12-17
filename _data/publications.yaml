@@ -6,6 +6,15 @@ papers:
     paper_url: "https://arxiv.org/pdf/2308.06838.pdf"
     selected: y
     id: WLPath2023
+    bib: |
+      @misc{truong2023weisfeiler,
+        title={Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes}, 
+        author={Quang Truong and Peter Chin},
+        year={2023},
+        eprint={2308.06838},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+      }
   
   - title: "Not All Data Matters: An Efficient Approach to Multi-Domain Learning in Vehicle Re-Identification"
     authors: "<b>Quang Truong</b> and Bo Mei"
@@ -15,6 +24,17 @@ papers:
     slides: "/assets/publications/2021_not_all_data_matters/slides.pdf"
     selected: y
     id: NotAllDataMatters2021
+    bib: |
+      @inproceedings{truong2021not,
+        author={Quang Truong and Bo Mei},
+        booktitle={2021 IEEE International Intelligent Transportation Systems Conference (ITSC)}, 
+        title={Not All Data Matters: An Efficient Approach to Multi-Domain Learning in Vehicle Re-Identification}, 
+        year={2021},
+        volume={},
+        number={},
+        pages={1278-1285},
+        doi={10.1109/ITSC48978.2021.9564945}
+      }
   
   - title: "Image-based Vehicle Re-identification Model with Adaptive Attention Modules and Metadata Re-ranking"
     authors: "<b>Quang Truong</b>, Hy Dang, Zhankai Ye, Minh Nguyen, and Bo Mei."
@@ -23,6 +43,16 @@ papers:
     code: "https://github.com/quang-truong/AI-City-Challenge-2020"
     selected: y
     id: VehicleReID2020
+    bib: |
+      @article{truong2020imagebased,
+        title={Image-based Vehicle Re-identification Model with Adaptive Attention Modules and Metadata Re-ranking},
+        author={Quang Truong and Hy Dang and Zhankai Ye and Minh Nguyen and Bo Mei},
+        journal={The Boller Review},
+        volume={5},
+        publisher={TCU Press},
+        year={2020},
+        doi={10.18776/tcu/br/5/130},
+      }
   
   - title: "Housing Price Prediction via Improved Machine Learning Techniques"
     authors: "<b>Quang Truong</b>, Minh Nguyen, Hy Dang, and Bo Mei."
@@ -30,6 +60,19 @@ papers:
     venue: "2019 International Conference on Identification, Information and Knowledge on the Internet of Things (IIKI). Elsevier. 2020."
     selected: n
     id: HousingPrice2020
+    bib: |
+      @article{truong2019housing,
+        title = {Housing Price Prediction via Improved Machine Learning Techniques},
+        journal = {Procedia Computer Science},
+        volume = {174},
+        pages = {433-442},
+        year = {2020},
+        publisher = {Elsevier},
+        issn = {1877-0509},
+        doi = {10.1016/j.procs.2020.06.111},
+        author = {Quang Truong and Minh Nguyen and Hy Dang and Bo Mei},
+        keywords = {Housing Price Prediction, Hybrid Regression, Machine Learning, Stacked Generalization},
+      }
   
 
   # - title: "Embedding Societal Values into Social Media Algorithms"

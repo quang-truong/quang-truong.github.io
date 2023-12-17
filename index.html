@@ -2,6 +2,55 @@
 layout: default
 title: Home
 ---
+<!-- JS functions -->
+<script>
+  // Function to toggle the visibility of BibTeX entry
+  function toggleBibTeX(tabPrefix, paperId) {
+    // Determine the prefix based on the tabId
+    var prefix = (tabPrefix === 'selected') ? 'selected' : 'all';
+    var bibElement = document.getElementById('bib-' + prefix + '-' + paperId);
+    if (bibElement.style.display === 'none' || bibElement.style.display === '') {
+      bibElement.style.display = 'block';
+    } else {
+      bibElement.style.display = 'none';
+    }
+  }
+
+  function switchToAllTab(){
+    // Remove the 'active' class from the currently active tab
+    var activeTab = document.querySelector('.tab-pane.active');
+    activeTab.classList.remove('active');
+    // Remove the 'active' class from the currently active button
+    var activeButton = document.querySelector('.tab-nav .button.active');
+    activeButton.classList.remove('active');
+
+    // Show the "All" tab and its content
+    var allTab = document.getElementById('papers-all');
+    allTab.classList.add('active');
+
+    // Set the 'active' class for the "All" button
+    var allButton = document.querySelector('.tab-nav [data-ref="#papers-all"]');
+    allButton.classList.add('active');
+  }
+
+  function switchToSelectedTab(){
+    // Remove the 'active' class from the currently active tab
+    var activeTab = document.querySelector('.tab-pane.active');
+    activeTab.classList.remove('active');
+    // Remove the 'active' class from the currently active button
+    var activeButton = document.querySelector('.tab-nav .button.active');
+    activeButton.classList.remove('active');
+
+    // Show the "All" tab and its content
+    var allTab = document.getElementById('papers-selected');
+    allTab.classList.add('active');
+
+    // Set the 'active' class for the "All" button
+    var allButton = document.querySelector('.tab-nav [data-ref="#papers-selected"]');
+    allButton.classList.add('active');
+  }
+</script>
+
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
   <h4>Bio</h4>
@@ -39,8 +88,11 @@ title: Home
   <!-- <p> Scroll for older news </p> -->
   <UL style="list-style-type: none; padding: 2px; overflow-y: scroll; height:50px;">
     <li> [12/09/2023]
-       Paper <a href="#WLPath2023">Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes</a> has been accepted to AAAI 2024.
+       Paper <a href="#selected-WLPath2023" onclick="switchToSelectedTab()">Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes</a> has been accepted to AAAI 2024.
     </li>
+    <!-- <li> [12/09/2023]
+      Paper <a href="#all-WLPath2023" onclick="switchToAllTab()">Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes</a> has been accepted to AAAI 2024.
+   </li> -->
   </UL>
 </div>
 
@@ -62,7 +114,7 @@ title: Home
     <div class="tab-pane active" id="papers-selected">
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
-        <span class="anchor" id="{{paper.id}}"></span>
+        <span class="anchor" id="selected-{{paper.id}}"></span>
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -92,6 +144,15 @@ title: Home
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
 
+            {% if paper.bib %}
+              <button class="button" onclick="toggleBibTeX('selected', '{{ paper.id }}')">BibTeX</button>
+            {% endif %}
+          </div>
+          <!-- Add a div to display BibTeX entry -->
+          <div id="bib-selected-{{ paper.id }}" style="display: none; font-size: 0.8em;">
+            <div>
+              <pre>{{ paper.bib | escape }}</pre>
+            </div>
           </div>
         </div>
       {% endfor %}
@@ -99,6 +160,7 @@ title: Home
 
     <div class="tab-pane" id="papers-all">
       {% for paper in site.data.publications.papers %}
+        <span class="anchor" id="all-{{paper.id}}"></span>
         <div class="paper">
           <p class="title"><b>{{ paper.title }}</b></p>
           <p>{{ paper.authors }}</p>
@@ -127,7 +189,16 @@ title: Home
             {% if paper.data %}
               <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
             {% endif %}
-
+            
+            {% if paper.bib %}
+              <button class="button" onclick="toggleBibTeX('all', '{{ paper.id }}')">BibTeX</button>
+            {% endif %}
+          </div>
+          <!-- Add a div to display BibTeX entry -->
+          <div id="bib-all-{{ paper.id }}" style="display: none; font-size: 0.8em;">
+            <div>
+              <pre>{{ paper.bib | escape }}</pre>
+            </div>
           </div>
         </div>
       {% endfor %}
