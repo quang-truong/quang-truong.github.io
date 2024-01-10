@@ -5,6 +5,7 @@ papers:
     venue: "Accepted for publication in AAAI 2024. 2023."
     paper_url: "https://arxiv.org/pdf/2308.06838.pdf"
     poster: "/assets/publications/2023_weisfeiler_lehman/poster.pdf"
+    slides: "/assets/publications/2023_weisfeiler_lehman/slides.pdf"
     selected: y
     id: WLPath2023
     bib: |
