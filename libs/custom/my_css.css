@@ -198,3 +198,25 @@ h4 {
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #49CFA5; }
 }
+
+/* ======== Image Styling ========= */
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image-container img {
+  flex: 0 0 33.3333%;
+  max-width: 33.3333%;
+  border: 2px solid #fff; /* Add a 2px black border to each image */
+  box-sizing: border-box; /* Include the border in the total width of the image */
+}
+
+@media (max-width: 767px) {
+  .image-container img {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+    border: 2px solid #fff; /* Add a 2px black border to each image */
+    box-sizing: border-box; /* Include the border in the total width of the image */
+  }
+}
