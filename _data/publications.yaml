@@ -1,8 +1,32 @@
 papers:
   # Possible options: paper_url, slides, poster, video, code, data
+  - title: "TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"
+    authors: "Mustafa Hajij<sup>‡</sup>, Mathilde Papillon<sup>‡</sup>, Florian Frantzen<sup>‡</sup>, ... <b>Quang Truong</b>, ... Nina Miolane"
+    venue: "Under review at the Journal of Machine Learning Research (JMLR). 2024."
+    paper_url: "https://arxiv.org/pdf/2402.02441.pdf"
+    code: "https://github.com/pyt-team"
+    selected: y
+    id: TopoX2024
+    bib: |
+      @misc{hajij2024topox,
+        title={TopoX: A Suite of Python Packages for Machine Learning on Topological Domains}, 
+        author={Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and 
+        Ibrahem AlJabea and Ruben Ballester and Claudio Battiloro and Guillermo Bernárdez and 
+        Tolga Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Odin Hoff Gardaa and 
+        Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and 
+        Jude Khouja and Manuel Lecha and Neal Livesay and Jan Meißner and Soham Mukherjee and 
+        Alexander Nikitin and Theodore Papamarkou and Jaro Pr'{i}lepok and Karthikeyan Natesan Ramamurthy and 
+        Paul Rosen and Aldo Guzm'{a}n-S'{a}enz and Alessandro Salatiello and Shreyas N. Samaga and 
+        Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang Truong and 
+        Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina Miolane},
+        year={2024},
+        eprint={2402.02441},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG}
+      }
   - title: "Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes"
     authors: "<b>Quang Truong</b> and Peter Chin"
-    venue: "Accepted for publication in AAAI 2024. 2023."
+    venue: "AAAI'24: The 38th Annual AAAI Conference on Artificial Intelligence. AAAI Press. 2024."
     paper_url: "https://arxiv.org/pdf/2308.06838.pdf"
     poster: "/assets/publications/2023_weisfeiler_lehman/poster.pdf"
     slides: "/assets/publications/2023_weisfeiler_lehman/slides.pdf"
@@ -20,7 +44,7 @@ papers:
   
   - title: "Not All Data Matters: An Efficient Approach to Multi-Domain Learning in Vehicle Re-Identification"
     authors: "<b>Quang Truong</b> and Bo Mei"
-    venue: "2021 IEEE International Intelligent Transportation Systems Conference (ITSC). IEEE. 2021."
+    venue: "ITSC'21: The 24th IEEE International Conference on Intelligent Transportation Systems. IEEE. 2021."
     paper_url: "https://ieeexplore.ieee.org/document/9564945"
     poster: "/assets/publications/2021_not_all_data_matters/poster.pdf"
     slides: "/assets/publications/2021_not_all_data_matters/slides.pdf"
@@ -40,7 +64,7 @@ papers:
   
   - title: "Image-based Vehicle Re-identification Model with Adaptive Attention Modules and Metadata Re-ranking"
     authors: "<b>Quang Truong</b>, Hy Dang, Zhankai Ye, Minh Nguyen, and Bo Mei."
-    venue: "The Boller Review. TCU Press. 2020."
+    venue: "The Boller Review: A TCU Journal of Undergraduate Research and Creativity (Vol. 5). TCU Press. 2020."
     paper_url: "https://bollerreview.tcu.edu/article/view/130"
     code: "https://github.com/quang-truong/AI-City-Challenge-2020"
     selected: y
@@ -59,7 +83,7 @@ papers:
   - title: "Housing Price Prediction via Improved Machine Learning Techniques"
     authors: "<b>Quang Truong</b>, Minh Nguyen, Hy Dang, and Bo Mei."
     paper_url: "https://doi.org/10.1016/j.procs.2020.06.111"
-    venue: "2019 International Conference on Identification, Information and Knowledge on the Internet of Things (IIKI). Elsevier. 2020."
+    venue: "IIKI'19: The 8th International Conference on Identification, Information and Knowledge in the Internet of Things. Elsevier. 2020."
     selected: n
     id: HousingPrice2020
     bib: |
