@@ -2,54 +2,6 @@
 layout: default
 title: Home
 ---
-<!-- JS functions -->
-<script>
-  // Function to toggle the visibility of BibTeX entry
-  function toggleBibTeX(tabPrefix, paperId) {
-    // Determine the prefix based on the tabId
-    var prefix = (tabPrefix === 'selected') ? 'selected' : 'all';
-    var bibElement = document.getElementById('bib-' + prefix + '-' + paperId);
-    if (bibElement.style.display === 'none' || bibElement.style.display === '') {
-      bibElement.style.display = 'block';
-    } else {
-      bibElement.style.display = 'none';
-    }
-  }
-
-  function switchToAllTab(){
-    // Remove the 'active' class from the currently active tab
-    var activeTab = document.querySelector('.tab-pane.active');
-    activeTab.classList.remove('active');
-    // Remove the 'active' class from the currently active button
-    var activeButton = document.querySelector('.tab-nav .button.active');
-    activeButton.classList.remove('active');
-
-    // Show the "All" tab and its content
-    var allTab = document.getElementById('papers-all');
-    allTab.classList.add('active');
-
-    // Set the 'active' class for the "All" button
-    var allButton = document.querySelector('.tab-nav [data-ref="#papers-all"]');
-    allButton.classList.add('active');
-  }
-
-  function switchToSelectedTab(){
-    // Remove the 'active' class from the currently active tab
-    var activeTab = document.querySelector('.tab-pane.active');
-    activeTab.classList.remove('active');
-    // Remove the 'active' class from the currently active button
-    var activeButton = document.querySelector('.tab-nav .button.active');
-    activeButton.classList.remove('active');
-
-    // Show the "All" tab and its content
-    var allTab = document.getElementById('papers-selected');
-    allTab.classList.add('active');
-
-    // Set the 'active' class for the "All" button
-    var allButton = document.querySelector('.tab-nav [data-ref="#papers-selected"]');
-    allButton.classList.add('active');
-  }
-</script>
 
 <!-- ========== BIO ========== -->
 <div class="docs-section" id="bio">
@@ -339,3 +291,53 @@ title: Home
   The website was built with <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> and designed by <a href="https://faculty.washington.edu/msaveski/" target="_blank">Martin Saveski</a>.
   Some website layouts are based on those of <a href="https://dmelis.github.io/" target="_blank">David Alvarez-Melis</a>.
 </div>  
+
+
+<!-- JS functions -->
+<script>
+  // Function to toggle the visibility of BibTeX entry
+  function toggleBibTeX(tabPrefix, paperId) {
+    // Determine the prefix based on the tabId
+    var prefix = (tabPrefix === 'selected') ? 'selected' : 'all';
+    var bibElement = document.getElementById('bib-' + prefix + '-' + paperId);
+    if (bibElement.style.display === 'none' || bibElement.style.display === '') {
+      bibElement.style.display = 'block';
+    } else {
+      bibElement.style.display = 'none';
+    }
+  }
+
+  function switchToAllTab(){
+    // Remove the 'active' class from the currently active tab
+    var activeTab = document.querySelector('.tab-pane.active');
+    activeTab.classList.remove('active');
+    // Remove the 'active' class from the currently active button
+    var activeButton = document.querySelector('.tab-nav .button.active');
+    activeButton.classList.remove('active');
+
+    // Show the "All" tab and its content
+    var allTab = document.getElementById('papers-all');
+    allTab.classList.add('active');
+
+    // Set the 'active' class for the "All" button
+    var allButton = document.querySelector('.tab-nav [data-ref="#papers-all"]');
+    allButton.classList.add('active');
+  }
+
+  function switchToSelectedTab(){
+    // Remove the 'active' class from the currently active tab
+    var activeTab = document.querySelector('.tab-pane.active');
+    activeTab.classList.remove('active');
+    // Remove the 'active' class from the currently active button
+    var activeButton = document.querySelector('.tab-nav .button.active');
+    activeButton.classList.remove('active');
+
+    // Show the "All" tab and its content
+    var allTab = document.getElementById('papers-selected');
+    allTab.classList.add('active');
+
+    // Set the 'active' class for the "All" button
+    var allButton = document.querySelector('.tab-nav [data-ref="#papers-selected"]');
+    allButton.classList.add('active');
+  }
+</script>
