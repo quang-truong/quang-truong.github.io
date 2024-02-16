@@ -28,6 +28,7 @@ papers:
     authors: "<b>Quang Truong</b> and Peter Chin"
     venue: "AAAI'24: The 38th Annual AAAI Conference on Artificial Intelligence. AAAI Press. 2024."
     paper_url: "https://arxiv.org/pdf/2308.06838.pdf"
+    code: "https://github.com/quang-truong/Path-Complex-Networks"
     poster: "/assets/publications/2023_weisfeiler_lehman/poster.pdf"
     slides: "/assets/publications/2023_weisfeiler_lehman/slides.pdf"
     selected: y
