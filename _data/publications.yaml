@@ -34,13 +34,14 @@ papers:
     selected: y
     id: WLPath2023
     bib: |
-      @misc{truong2023weisfeiler,
-        title={Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes}, 
-        author={Quang Truong and Peter Chin},
-        year={2023},
-        eprint={2308.06838},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG}
+      @inproceedings{truong2024weisfeiler,
+        title={Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes},
+        author={Truong, Quang and Chin, Peter},
+        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+        volume={38},
+        number={14},
+        pages={15382--15391},
+        year={2024}
       }
   
   - title: "Not All Data Matters: An Efficient Approach to Multi-Domain Learning in Vehicle Re-Identification"
