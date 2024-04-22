@@ -55,9 +55,9 @@ experiences:
 #   category: "work"
 
 - place: "Dartmouth College"
-  time: "2022 - Present"
-  title: "Ph.D. Candidate"
-  subtitle: "Engineering Science"
+  time: "2022 - 2024"
+  title: "M.S. Student"
+  subtitle: "Engineering Sciences"
   advisor: "Dr. Peter Chin"
   advisor_url: https://engineering.dartmouth.edu/community/faculty/peter-chin
   category: "school"
@@ -72,7 +72,7 @@ experiences:
 
 - place: "Texas Christian University"
   time: "2019 - 2022"
-  title: "B.Sc. Student"
+  title: "B.S. Student"
   subtitle: "Computer Science <br/> Summa Cum Laude"
   advisor: "Dr. Bo Mei"
   advisor_url: https://personal.tcu.edu/bmei/
