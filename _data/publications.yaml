@@ -50,7 +50,7 @@ papers:
     paper_url: "https://ieeexplore.ieee.org/document/9564945"
     poster: "/assets/publications/2021_not_all_data_matters/poster.pdf"
     slides: "/assets/publications/2021_not_all_data_matters/slides.pdf"
-    selected: y
+    selected: n
     id: NotAllDataMatters2021
     bib: |
       @inproceedings{truong2021not,
@@ -69,7 +69,7 @@ papers:
     venue: "The Boller Review: A TCU Journal of Undergraduate Research and Creativity (Vol. 5). TCU Press. 2020."
     paper_url: "https://bollerreview.tcu.edu/article/view/130"
     code: "https://github.com/quang-truong/AI-City-Challenge-2020"
-    selected: y
+    selected: n
     id: VehicleReID2020
     bib: |
       @article{truong2020imagebased,
@@ -82,25 +82,25 @@ papers:
         doi={10.18776/tcu/br/5/130},
       }
   
-  - title: "Housing Price Prediction via Improved Machine Learning Techniques"
-    authors: "<b>Quang Truong</b>, Minh Nguyen, Hy Dang, and Bo Mei."
-    paper_url: "https://doi.org/10.1016/j.procs.2020.06.111"
-    venue: "IIKI'19: The 8th International Conference on Identification, Information and Knowledge in the Internet of Things. Elsevier. 2020."
-    selected: n
-    id: HousingPrice2020
-    bib: |
-      @article{truong2019housing,
-        title = {Housing Price Prediction via Improved Machine Learning Techniques},
-        journal = {Procedia Computer Science},
-        volume = {174},
-        pages = {433-442},
-        year = {2020},
-        publisher = {Elsevier},
-        issn = {1877-0509},
-        doi = {10.1016/j.procs.2020.06.111},
-        author = {Quang Truong and Minh Nguyen and Hy Dang and Bo Mei},
-        keywords = {Housing Price Prediction, Hybrid Regression, Machine Learning, Stacked Generalization},
-      }
+  # - title: "Housing Price Prediction via Improved Machine Learning Techniques"
+  #   authors: "<b>Quang Truong</b>, Minh Nguyen, Hy Dang, and Bo Mei."
+  #   paper_url: "https://doi.org/10.1016/j.procs.2020.06.111"
+  #   venue: "IIKI'19: The 8th International Conference on Identification, Information and Knowledge in the Internet of Things. Elsevier. 2020."
+  #   selected: n
+  #   id: HousingPrice2020
+  #   bib: |
+  #     @article{truong2019housing,
+  #       title = {Housing Price Prediction via Improved Machine Learning Techniques},
+  #       journal = {Procedia Computer Science},
+  #       volume = {174},
+  #       pages = {433-442},
+  #       year = {2020},
+  #       publisher = {Elsevier},
+  #       issn = {1877-0509},
+  #       doi = {10.1016/j.procs.2020.06.111},
+  #       author = {Quang Truong and Minh Nguyen and Hy Dang and Bo Mei},
+  #       keywords = {Housing Price Prediction, Hybrid Regression, Machine Learning, Stacked Generalization},
+  #     }
   
 
   # - title: "Embedding Societal Values into Social Media Algorithms"
