@@ -54,6 +54,14 @@ experiences:
 #   subtitle: "Department of Knowledge Technologies"
 #   category: "work"
 
+- place: "Michigan State University"
+  time: "2024 - Present"
+  title: "Ph.D. Student"
+  subtitle: "Computer Science"
+  advisor: "Dr. Jiliang Tang"
+  advisor_url: https://www.cse.msu.edu/~tangjili/
+  category: "school"
+
 - place: "Dartmouth College"
   time: "2022 - 2024"
   title: "M.S. Student"
