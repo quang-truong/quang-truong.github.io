@@ -2,27 +2,30 @@ papers:
   # Possible options: paper_url, slides, poster, video, code, data
   - title: "TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"
     authors: "Mustafa Hajij<sup>‡</sup>, Mathilde Papillon<sup>‡</sup>, Florian Frantzen<sup>‡</sup>, ... <b>Quang Truong</b>, ... Nina Miolane"
-    venue: "Accepted for publication at the Journal of Machine Learning Research (JMLR). 2024."
-    paper_url: "https://arxiv.org/pdf/2402.02441.pdf"
+    venue: "The Journal of Machine Learning Research (JMLR). Volume 25. 2024."
+    paper_url: "https://jmlr.org/papers/v25/24-0110.html"
     code: "https://github.com/pyt-team"
     selected: y
     id: TopoX2024
     bib: |
-      @misc{hajij2024topox,
-        title={TopoX: A Suite of Python Packages for Machine Learning on Topological Domains}, 
-        author={Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and 
-        Ibrahem AlJabea and Ruben Ballester and Claudio Battiloro and Guillermo Bernárdez and 
-        Tolga Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Odin Hoff Gardaa and 
-        Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and 
-        Jude Khouja and Manuel Lecha and Neal Livesay and Jan Meißner and Soham Mukherjee and 
-        Alexander Nikitin and Theodore Papamarkou and Jaro Pr'{i}lepok and Karthikeyan Natesan Ramamurthy and 
-        Paul Rosen and Aldo Guzm'{a}n-S'{a}enz and Alessandro Salatiello and Shreyas N. Samaga and 
-        Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang Truong and 
-        Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina Miolane},
-        year={2024},
-        eprint={2402.02441},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG}
+      @article{hajij2024topox,
+        author  = {Mustafa Hajij and Mathilde Papillon and Florian Frantzen and Jens Agerberg and Ibrahem 
+        AlJabea and Rub{{\'e}}n Ballester and Claudio Battiloro and Guillermo Bern{{\'a}}rdez and Tolga 
+        Birdal and Aiden Brent and Peter Chin and Sergio Escalera and Simone Fiorellino and Odin Hoff 
+        Gardaa and Gurusankar Gopalakrishnan and Devendra Govil and Josef Hoppe and Maneel Reddy Karri and 
+        Jude Khouja and Manuel Lecha and Neal Livesay and Jan MeiÃŸner and Soham Mukherjee and Alexander 
+        Nikitin and Theodore Papamarkou and Jaro Pr{{\'i}}lepok and Karthikeyan Natesan Ramamurthy and Paul 
+        Rosen and Aldo Guzm{{\'a}}n-S{{\'a}}enz and Alessandro Salatiello and Shreyas N. Samaga and Simone 
+        Scardapane and Michael T. Schaub and Luca Scofano and Indro Spinelli and Lev Telyatnikov and Quang 
+        Truong and Robin Walters and Maosheng Yang and Olga Zaghen and Ghada Zamzmi and Ali Zia and Nina 
+        Miolane},
+        title   = {TopoX: A Suite of Python Packages for Machine Learning on Topological Domains},
+        journal = {Journal of Machine Learning Research},
+        year    = {2024},
+        volume  = {25},
+        number  = {374},
+        pages   = {1--8},
+        url     = {http://jmlr.org/papers/v25/24-0110.html}
       }
   - title: "Weisfeiler and Lehman Go Paths: Learning Topological Features via Path Complexes"
     authors: "<b>Quang Truong</b> and Peter Chin"
