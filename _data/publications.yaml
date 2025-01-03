@@ -2,7 +2,7 @@ papers:
   # Possible options: paper_url, slides, poster, video, code, data
   - title: "TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"
     authors: "Mustafa Hajij<sup>‡</sup>, Mathilde Papillon<sup>‡</sup>, Florian Frantzen<sup>‡</sup>, ... <b>Quang Truong</b>, ... Nina Miolane"
-    venue: "The Journal of Machine Learning Research (JMLR). Volume 25. 2024."
+    venue: "The Journal of Machine Learning Research (JMLR) (Vol. 25). 2024."
     paper_url: "https://jmlr.org/papers/v25/24-0110.html"
     code: "https://github.com/pyt-team"
     selected: y
