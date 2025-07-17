@@ -1,5 +1,21 @@
 papers:
   # Possible options: paper_url, slides, poster, video, code, data
+  - title: "A Pre-training Framework for Relational Data with Information-theoretic Principles"
+    authors: "<b>Quang Truong</b>, Zhikai Chen, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
+    venue: "Preprint."
+    paper_url: "https://arxiv.org/abs/2507.09837"
+    selected: y
+    id: RDL2025
+    bib: |
+      @misc{truong2025pretrainingframeworkrelationaldata,
+        title={A Pre-training Framework for Relational Data with Information-theoretic Principles}, 
+        author={Quang Truong and Zhikai Chen and Mingxuan Ju and Tong Zhao and Neil Shah and Jiliang Tang},
+        year={2025},
+        eprint={2507.09837},
+        archivePrefix={arXiv},
+        primaryClass={cs.LG},
+        url={https://arxiv.org/abs/2507.09837}, 
+      }
   - title: "TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"
     authors: "Mustafa Hajij<sup>‡</sup>, Mathilde Papillon<sup>‡</sup>, Florian Frantzen<sup>‡</sup>, ... <b>Quang Truong</b>, ... Nina Miolane"
     venue: "The Journal of Machine Learning Research (JMLR) (Vol. 25). 2024."
