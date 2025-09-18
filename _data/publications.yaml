@@ -2,7 +2,7 @@ papers:
   # Possible options: paper_url, slides, poster, video, code, data
   - title: "A Pre-training Framework for Relational Data with Information-theoretic Principles"
     authors: "<b>Quang Truong</b>, Zhikai Chen, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
-    venue: "Preprint."
+    venue: "NeurIPS'25: The 39th International Conference on Neural Information Processing Systems. 2025."
     paper_url: "https://arxiv.org/abs/2507.09837"
     selected: y
     id: RDL2025
