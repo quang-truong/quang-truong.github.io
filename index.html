@@ -266,6 +266,38 @@ title: Home
 </div>
 -->
 
+<!-- ========== OPEN-SOURCE PROJECTS ========== -->
+<div class="docs-section" id="opensource">
+  <h4>Open-Source Projects</h4>
+  
+  <div class="opensource-project">
+    <div class="project-content">
+      <div class="project-logo">
+        <img src="https://user-images.githubusercontent.com/8267869/234068354-af9480f1-1d18-4914-92f1-916d9093e44d.png" alt="TopoNetX Logo" class="project-logo-img">
+      </div>
+      <div class="project-info">
+        <h3 class="project-title"><a href="https://github.com/pyt-team/TopoNetX" target="_blank" class="project-link">TopoNetX: Computing with Relational Data Abstracted as Topological Domains</a></h3>
+        <div class="github-stats">
+          <div class="stat-badge">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <span class="stat-label">Stars</span>
+            <span class="stat-value" id="stars-count">-</span>
+          </div>
+          <div class="stat-badge">
+            <i class="fa fa-github" aria-hidden="true"></i>
+            <span class="stat-label">Forks</span>
+            <span class="stat-value" id="forks-count">-</span>
+          </div>
+        </div>
+        <div class="project-description">
+          <p>TopoNetX (TNX) is a package for computing with topological domains and studying their properties. With its dynamic construction capabilities and support for arbitrary attributes and data, TopoNetX allows users to easily explore the topological structure of their data and gain insights into its underlying geometric and algebraic properties.</p>
+          <p><em>Part of the TopoX suite, published in <a href="https://jmlr.org/papers/v25/24-0110.html" target="_blank">JMLR 2024</a></em></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <!-- ========== RESUME ========== -->
 <div class="docs-section" id="resume">
   <h4>CV</h4>
@@ -367,6 +399,35 @@ title: Home
 
 <!-- JS functions -->
 <script>
+  // Function to fetch GitHub statistics
+  async function fetchGitHubStats() {
+    try {
+      const response = await fetch('https://api.github.com/repos/pyt-team/TopoNetX');
+      if (response.ok) {
+        const data = await response.json();
+        document.getElementById('stars-count').textContent = formatNumber(data.stargazers_count);
+        document.getElementById('forks-count').textContent = formatNumber(data.forks_count);
+      } else {
+        console.error('Failed to fetch GitHub stats:', response.status);
+      }
+    } catch (error) {
+      console.error('Error fetching GitHub stats:', error);
+    }
+  }
+
+  // Function to format numbers (e.g., 1000 -> 1k)
+  function formatNumber(num) {
+    if (num >= 1000) {
+      return (num / 1000).toFixed(1) + 'k';
+    }
+    return num.toString();
+  }
+
+  // Fetch GitHub stats when the page loads
+  document.addEventListener('DOMContentLoaded', function() {
+    fetchGitHubStats();
+  });
+
   // Function to toggle the visibility of BibTeX entry
   function toggleBibTeX(tabPrefix, paperId) {
     // Determine the prefix based on the tabId
