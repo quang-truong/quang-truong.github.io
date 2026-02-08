@@ -63,6 +63,7 @@ experiences:
   mentor_url: "https://www.linkedin.com/in/wuliang1"
   mentor2: "Dr. Liangjie Hong"
   mentor2_url: "https://www.linkedin.com/in/liangjiehong"
+  logo: "/assets/logos/nokia.png"
 
 - place: "Michigan State University"
   time: "2024 - Present"
@@ -71,6 +72,7 @@ experiences:
   advisor: "Dr. Jiliang Tang"
   advisor_url: https://www.cse.msu.edu/~tangjili/
   category: "school"
+  logo: "/assets/logos/msu.png"
 
 - place: "Dartmouth College"
   time: "2022 - 2024"
@@ -79,6 +81,7 @@ experiences:
   advisor: "Dr. Peter Chin"
   advisor_url: https://engineering.dartmouth.edu/community/faculty/peter-chin
   category: "school"
+  logo: "/assets/logos/dartmouth.png"
 
 - place: "University of Illinois at Chicago"
   time: "2021 - 2021"
@@ -87,6 +90,7 @@ experiences:
   advisor: "Dr. Wei Tang"
   advisor_url: https://tangw.people.uic.edu/index.html
   category: "work"
+  logo: "/assets/logos/uic.png"
 
 - place: "Texas Christian University"
   time: "2019 - 2022"
@@ -95,3 +99,4 @@ experiences:
   advisor: "Dr. Bo Mei"
   advisor_url: https://personal.tcu.edu/bmei/
   category: "school"
+  logo: "/assets/logos/tcu.png"

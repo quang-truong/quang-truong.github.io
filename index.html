@@ -320,7 +320,12 @@ title: Home
       <div class="direction-r">
       {% endif %}
         <div class="flag-wrapper">
-          <span class="flag">{{ exp.place }}</span>
+          <span class="flag flag-with-layout {% if exp.category == 'work' %}flag-direction-l{% else %}flag-direction-r{% endif %}">
+            {% if exp.logo %}
+              <img src="{{ exp.logo | prepend: site.baseurl }}" class="institution-logo" alt="" />
+            {% endif %}
+            <span class="flag-text">{{ exp.place }}</span>
+          </span>
           <span class="time-wrapper"><span class="time">{{ exp.time }}</span></span>
         </div>
         {% if exp.advisor %}
