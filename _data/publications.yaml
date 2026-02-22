@@ -20,17 +20,18 @@ papers:
     authors: "<b>Quang Truong</b>, Zhikai Chen, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
     venue: "NeurIPS'25: The 39th International Conference on Neural Information Processing Systems. 2025."
     paper_url: "https://arxiv.org/abs/2507.09837"
+    code: "https://github.com/quang-truong/task-vector-estimation"
+    slides: "/assets/publications/2025_a_pretraining/slides.pdf"
+    poster: "/assets/publications/2025_a_pretraining/poster.pdf"
     selected: y
     id: RDL2025
     bib: |
-      @misc{truong2025pretrainingframeworkrelationaldata,
-        title={A Pre-training Framework for Relational Data with Information-theoretic Principles}, 
+      @inproceedings{truong2025a_pre_training,
+        title={A Pre-training Framework for Relational Data with Information-theoretic Principles},
         author={Quang Truong and Zhikai Chen and Mingxuan Ju and Tong Zhao and Neil Shah and Jiliang Tang},
+        booktitle={The Thirty-ninth Annual Conference on Neural Information Processing Systems},
         year={2025},
-        eprint={2507.09837},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG},
-        url={https://arxiv.org/abs/2507.09837}, 
+        url={https://openreview.net/forum?id=xNUNxRj2vJ}
       }
   - title: "TopoX: A Suite of Python Packages for Machine Learning on Topological Domains"
     authors: "Mustafa Hajij<sup>‡</sup>, Mathilde Papillon<sup>‡</sup>, Florian Frantzen<sup>‡</sup>, ... <b>Quang Truong</b>, ... Nina Miolane"
