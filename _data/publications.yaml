@@ -2,19 +2,17 @@ papers:
   # Possible options: paper_url, slides, poster, video, code, data
   - title: "Plain Transformers are Surprisingly Powerful Link Predictors"
     authors: "<b>Quang Truong</b>, Yu Song, Donald Loveland, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
-    venue: "Preprint. 2026."
+    venue: "ICML'26: The 43rd International Conference on Machine Learning. 2026."
     paper_url: "https://arxiv.org/abs/2602.01553"
     selected: y
     id: PlainTransLinkPred2026
     bib: |
-      @misc{truong2026plaintransformerssurprisinglypowerful,
-        title={Plain Transformers are Surprisingly Powerful Link Predictors}, 
+      @inproceedings{truong2026plain,
+        title={Plain Transformers are Surprisingly Powerful Link Predictors},
         author={Quang Truong and Yu Song and Donald Loveland and Mingxuan Ju and Tong Zhao and Neil Shah and Jiliang Tang},
+        booktitle={Forty-third International Conference on Machine Learning},
         year={2026},
-        eprint={2602.01553},
-        archivePrefix={arXiv},
-        primaryClass={cs.LG},
-        url={https://arxiv.org/abs/2602.01553}, 
+        url={https://openreview.net/forum?id=HUwssjEH2D}
       }
   - title: "A Pre-training Framework for Relational Data with Information-theoretic Principles"
     authors: "<b>Quang Truong</b>, Zhikai Chen, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
