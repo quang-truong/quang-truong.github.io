@@ -54,8 +54,17 @@ experiences:
 #   subtitle: "Department of Knowledge Technologies"
 #   category: "work"
 
-- place: "Nokia Corporation"
+- place: "Snap Research"
   time: "2026 - Present"
+  title: "Research Intern"
+  subtitle: "User Modeling and Personalization"
+  category: "work"
+  mentor: "Dr. Neil Shah"
+  mentor_url: "https://nshah.net/"
+  logo: "/assets/logos/snap.png"
+
+- place: "Nokia Corporation"
+  time: "2026"
   title: "AI/R&D Engineer Co-op"
   subtitle: "CNS P&E AI"
   category: "work"
