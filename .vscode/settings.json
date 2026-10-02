@@ -1,0 +1,7 @@
+{
+    // Git settings: also show the nested CV repo in the Source Control panel
+    "git.autoRepositoryDetection": true,
+    "git.scanRepositories": [
+      "assets/cv/PhD-CV"
+    ]
+}
