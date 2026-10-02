@@ -1,5 +1,10 @@
 papers:
   # Possible options: paper_url, slides, poster, video, code, data
+  - title: "Auto-Chroma: Automating the Design of Test-Time Time-Series Model Portfolios with Memory-Augmented LLM Agents"
+    authors: "<b>Quang Truong</b>, Liang Wu, Kelly Wan, Jiliang Tang, Liangjie Hong"
+    venue: "Preprint. 2026."
+    selected: y
+    id: AutoChroma2026
   - title: "Plain Transformers are Surprisingly Powerful Link Predictors"
     authors: "<b>Quang Truong</b>, Yu Song, Donald Loveland, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
     venue: "ICML'26: The 43rd International Conference on Machine Learning. 2026."
