@@ -59,8 +59,10 @@ experiences:
   title: "Research Intern"
   subtitle: "User Modeling and Personalization"
   category: "work"
-  mentor: "Dr. Neil Shah"
-  mentor_url: "https://nshah.net/"
+  mentor: "Dr. Donald Loveland"
+  mentor_url: "https://www.donaldloveland.com/"
+  mentor2: "Dr. Neil Shah"
+  mentor2_url: "https://nshah.net/"
   logo: "/assets/logos/snap.png"
 
 - place: "Nokia Corporation"
