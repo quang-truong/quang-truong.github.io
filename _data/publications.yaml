@@ -9,6 +9,7 @@ papers:
     authors: "<b>Quang Truong</b>, Yu Song, Donald Loveland, Mingxuan Ju, Tong Zhao, Neil Shah, Jiliang Tang"
     venue: "ICML'26: The 43rd International Conference on Machine Learning. 2026."
     paper_url: "https://arxiv.org/abs/2602.01553"
+    code: "https://github.com/quang-truong/pencil"
     selected: y
     id: PlainTransLinkPred2026
     bib: |
